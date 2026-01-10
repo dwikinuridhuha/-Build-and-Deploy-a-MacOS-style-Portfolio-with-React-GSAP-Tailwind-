@@ -1,11 +1,13 @@
-import NavBar from "#components/NavBar.jsx";
+import { NavBar, Welcome } from "#components";
+
 
 const App = () => {
-    return (
-        <main>
-            <NavBar />
-        </main>
-    )
-}
+  return (
+    <main>
+      <NavBar />
+      <Welcome />
+    </main>
+  );
+};
 
 export default App;
